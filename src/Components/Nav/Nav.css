@@ -1,0 +1,52 @@
+:root {
+    --bg-colour: #b90a0A;
+}
+
+.navbar {
+    background: var(--bg-colour);
+    width: 100%;
+    color: var(--light);
+}
+
+.nav-header {
+    background: var(--bg-colour);
+    padding-top: 0.5rem;
+    color: var(--light);
+}
+
+.nav-logo {
+    width: 100%;
+}
+
+.nav-logo img {
+    height: 120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-company-name {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--light);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--gray);
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: var(--bg-colour) ;
+    border: none;
+    border-radius: 0.25rem;
+}

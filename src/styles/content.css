@@ -1,0 +1,11 @@
+:root {
+    --text-colour: #b90a0A;
+}
+
+.content-section {
+    width: 100%;
+    padding: 16px 16px;
+    margin: 0;
+    text-align: center;
+    color: var(--text-colour);
+  }
