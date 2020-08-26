@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row'
 
 import wibalogo from '../../images/wiba9.jpg';
 
-import './Nav.css'
+import './nav.css'
 
 const nav = props => (
     <Container fluid>

@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import './styles/content.css';
+import './styles/general.css';
 
 import Nav from './Components/Nav/Nav';
 
@@ -31,15 +30,13 @@ import ybSingles from './views/youngbowlers/singles';
 import ybPairs from './views/youngbowlers/pairs';
 import ybTriples from './views/youngbowlers/triples';
 import ybFours from './views/youngbowlers/fours';
-import { Container } from 'react-bootstrap';
-
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Nav />
-        <Container fluid="lg">
+        <Container fluid>
           <Row>
             <Col className="content-section">
               <Switch>

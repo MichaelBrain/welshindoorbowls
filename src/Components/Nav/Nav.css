@@ -1,5 +1,6 @@
 :root {
     --bg-colour: #b90a0A;
+    --link-colour: #ffccbb;
 }
 
 .navbar {
@@ -39,7 +40,7 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--gray);
+    color: var(--link-colour);
 }
 
 .navbar-toggler {

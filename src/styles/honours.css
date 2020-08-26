@@ -1,7 +1,36 @@
+:root {
+    --theme-colour: #b90a0A;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid var(--theme-colour);
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #fff;
+    border-color: var(--theme-colour) var(--theme-colour) #fff;
+}
+
+.nav a {
+    color: var(--theme-colour);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--theme-colour);
+    font-weight: bold;
+}
+
 .honours {
-    padding: 10px;
+    padding-top: 50px;
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .honours img {
@@ -10,4 +39,38 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+.honours-competition {
+    font-weight: bold;
+}
+
+@media (max-width:1024px) {
+    .honours-competition {
+        font-size: 1.1rem;
+    }
+    
+    .honours-winner {
+        font-size: 1rem;
+    }
+    
+    .honours {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .honours img {
+        max-width: 85%;
+        max-height: 85%;
+    }
+}
+
+@media (min-width:1025px) {
+    .honours-competition {
+        font-size: 1.5rem;
+    }
+    
+    .honours-winner {
+        font-size: 1.35rem;
+    }
 }
